@@ -1,0 +1,26 @@
+{
+  "name": "jelly074100209/amqp-message",
+  "description": "A package of php-amqplib",
+  "keywords": ["amqp", "php-amqplib", "amqp-message"],
+  "license": "MIT",
+  "type": "library",
+  "homepage": "https://github.com/jelly074100209/amqp-message",
+  "authors": [
+    {
+      "name": "jss",
+      "role": "owner"
+    }
+  ],
+  "require": {
+    "php": ">=5.6.4",
+    "php-amqplib/php-amqplib": "^2.6"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^4.8"
+  },
+  "autoload": {
+    "psr-4": {
+      "AmqpMessage\\": "src/"
+    }
+  }
+}
