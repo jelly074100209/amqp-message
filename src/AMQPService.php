@@ -61,6 +61,7 @@ class AMQPService {
         $this->host = $config['host'];
         $this->port = $config['port'];
         $this->username = $config['username'];
+        $this->password = $config['password'];
 
         //设置交换机-路由键-队列映射
         $this->virtual_host = $config['virtual_host'];
