@@ -8,7 +8,8 @@
   "authors": [
     {
       "name": "jss",
-      "role": "owner"
+      "role": "owner",
+      "email": "419756656@qq.com"
     }
   ],
   "require": {
