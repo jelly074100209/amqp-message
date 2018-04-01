@@ -2,6 +2,6 @@
 这是一个基于php-amqplib库的封装，能更方便的使用rabbitmq。
 
 ## 安装
-composer require jelly074100209/amqp-message master-dev
+composer require jelly074100209/amqp-message
 
 ## 使用
